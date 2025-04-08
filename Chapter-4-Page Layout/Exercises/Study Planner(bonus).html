@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Study Plan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,36 +16,39 @@
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#overview">Overview</a></li>
+            <li><a href="#Home">Overview</a></li>
             <li><a href="#modules">Modules</a></li>
             <li><a href="#resources">Resources</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Schedule">Contact</a></li>
         </ul>
     </nav>
+    <form style="display: flex; align-items: center; gap: 5px;">
+        <input type="text" placeholder="Search Module...">
+        <input type="submit" value="Search">
+    </form>
+</nav>
+<!-- Teaching Materials -->
+<main>
+    <h2>Teaching Materials</h2>
+    <div class="materials">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+            <button>INTRODUCTION TO HTML</button>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+            <button>INTRODUCTION TO CSS</button>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+            <button>INTRODUCTION TO JAVASCRIPT</button>
+        </div>
+    </div>
 
-    <!-- Main Content Section -->
-    <main>
-        <section id="overview">
-            <h2>Overview</h2>
-            <p>This application helps you manage your study plan effectively for the Web Development module.</p>
-        </section>
-
-        <section id="modules" class="two-columns">
-            <h2>Modules</h2>
-            <div class="column">
-                <h3>Module 1: HTML & CSS</h3>
-                <p>Learn the basics of web design including HTML structure and CSS styling.</p>
-            </div>
-            <div class="column">
-                <h3>Module 2: JavaScript</h3>
-                <p>Discover the fundamentals of JavaScript for dynamic web applications.</p>
-            </div>
-            <div class="column">
-                <h3>Module 3: Backend Development</h3>
-                <p>Explore server-side programming with Node.js and databases.</p>
-            </div>
-        </section>
-        
+    <div class="fancy-section">Web Development</div>
+    <div class="fancy-section">Responsive Design</div>
+</main>
+    
         <section id="resources">
             <h2>Resources</h2>
             <ul>
