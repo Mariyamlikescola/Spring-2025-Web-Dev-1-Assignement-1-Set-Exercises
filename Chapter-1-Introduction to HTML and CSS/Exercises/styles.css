@@ -116,7 +116,52 @@
     text-align: center;
     color: #3b3b00;
   }
-  
+  /* About Section Styling */
+.about-block {
+  position: relative;
+  background-image: url("https://i.pinimg.com/736x/3e/50/8d/3e508d36cb514fe0697bde053e2a878d.jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #fff;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: Georgia, serif;
+}
+
+/* Semi-transparent overlay with "ABOUT" text */
+.about-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.about-title {
+  font-size: 4rem;
+  color: #fdf3cc;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Descriptive text box */
+.about-text {
+  background-color: #fdf3cc;
+  color: #2c1a00;
+  padding: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+
   /* STEPS SECTION */
   .steps-section {
     background-color: #f4f4d7;
