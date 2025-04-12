@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('https://i.pinimg.com/736x/70/ef/39/70ef39577b00b98892d99b66601b6d9b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Receipt box styling */
+  .receipt-container {
+    background-color: rgba(255, 255, 255, 0.92);
+    border: 1px dashed #999;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
