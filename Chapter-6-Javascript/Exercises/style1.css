@@ -68,9 +68,9 @@
   .color-option {
     width: 0;
     height: 0;
-    border-left: 120px solid transparent;
-    border-right: 110px solid transparent;
-    border-bottom: 150px solid red; /* This will be dynamically updated via JS */
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid red; /* This will be dynamically updated via JS */
     cursor: pointer;
     transition: transform 0.3s, filter 0.3s;
   }
