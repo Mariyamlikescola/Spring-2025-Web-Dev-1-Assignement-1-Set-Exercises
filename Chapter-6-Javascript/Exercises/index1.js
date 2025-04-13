@@ -29,3 +29,52 @@ function newRound() {
       colors.push(newColor);
     }
   }
+  colors.sort(() => Math.random() - 0.5);
+
+  colors.forEach(color => {
+    const div = document.createElement('div');
+    div.classList.add('color-option');
+    div.style.backgroundColor = color;
+    div.addEventListener('click', () => handleGuess(color, correctColor));
+    optionsContainer.appendChild(div);
+  });
+}
+function handleGuess(selected, correct) {
+    if (selected === correct) {
+      feedback.textContent = '✅ Correct!';
+      feedback.style.color = 'green';
+      score++;
+      scoreDisplay.textContent = score;
+    } else {
+      feedback.textContent = '❌ Incorrect!';
+      feedback.style.color = 'red';
+      lives--;
+      livesDisplay.textContent = lives;
+    }
+  
+    setTimeout(() => {
+      if (lives > 0) {
+        newRound();
+      } else {
+        endGame();
+      }
+    }, 1000);
+  }
+  
+  function endGame() {
+    feedback.textContent = `🎮 Game Over! Final Score: ${score}`;
+    feedback.style.color = '#e74c3c';
+    restartBtn.classList.remove('hidden');
+    optionsContainer.innerHTML = '';
+  }
+  
+  restartBtn.addEventListener('click', () => {
+    score = 0;
+    lives = 3;
+    scoreDisplay.textContent = score;
+    livesDisplay.textContent = lives;
+    restartBtn.classList.add('hidden');
+    newRound();
+  });
+  
+  newRound();
