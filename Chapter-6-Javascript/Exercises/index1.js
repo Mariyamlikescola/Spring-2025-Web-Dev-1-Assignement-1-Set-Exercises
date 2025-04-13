@@ -34,7 +34,7 @@ function newRound() {
   colors.forEach(color => {
     const div = document.createElement('div');
     div.classList.add('color-option');
-    div.style.backgroundColor = color;
+    div.style.borderBottomColor = color;
     div.addEventListener('click', () => handleGuess(color, correctColor));
     optionsContainer.appendChild(div);
   });

@@ -66,17 +66,18 @@
     margin: 2rem 0;
   }
   .color-option {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid red; /* This will be dynamically updated via JS */
     cursor: pointer;
-    border: 3px solid transparent;
+    transition: transform 0.3s, filter 0.3s;
   }
   
   .color-option:hover {
-    transform: scale(1.1) rotate(3deg);
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: scale(1.1) rotate(5deg);
+    filter: brightness(1.1);
   }
   
   .feedback {
