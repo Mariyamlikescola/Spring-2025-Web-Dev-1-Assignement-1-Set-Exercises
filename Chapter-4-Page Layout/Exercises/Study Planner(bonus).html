@@ -19,50 +19,70 @@
             <li><a href="#Home">Overview</a></li>
             <li><a href="#modules">Modules</a></li>
             <li><a href="#resources">Resources</a></li>
-            <li><a href="#Schedule">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <form class="search-form" aria-label="Search Modules">
+            <input type="text" placeholder="Search Module..." aria-label="Search Module">
+            <input type="submit" value="Search">
+        </form>
     </nav>
-    <form style="display: flex; align-items: center; gap: 5px;">
-        <input type="text" placeholder="Search Module...">
-        <input type="submit" value="Search">
-    </form>
-</nav>
-<!-- Teaching Materials -->
+<!-- Main Content -->
 <main>
-    <h2>Teaching Materials</h2>
-    <div class="materials">
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
-            <button>INTRODUCTION TO HTML</button>
-        </div>
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
-            <button>INTRODUCTION TO CSS</button>
-        </div>
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
-            <button>INTRODUCTION TO JAVASCRIPT</button>
-        </div>
+    <!-- Overview Section -->
+    <section id="overview">
+        <div class="banner"
+        <h2>Overview</h2>
+        <p>Welcome to your personalized Web Development study plan! This page is designed to guide beginners through the essential topics of front-end development. Whether you're aiming to become a professional developer or just exploring, you'll find helpful content, useful resources, and a clear roadmap to follow.</p>
+        <p>The modules below will walk you through foundational web technologies like HTML, CSS, and JavaScript. Each module is accompanied by helpful guides and references to make your learning journey easier and more engaging. Take your time with each topic and use the resources provided to dig deeper when needed.</p>
+        <p>This plan is flexible—feel free to explore, revise, and build projects as you go. Remember, practice is key to mastering web development!</p>
     </div>
+    </section>
 
-    <div class="fancy-section">Web Development</div>
-    <div class="fancy-section">Responsive Design</div>
+    <!-- Modules Section -->
+    <section id="modules">
+        <h2>Modules</h2>
+        <div class="materials">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+                <button onclick="location.href='#'">Introduction to HTML</button>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+                <button onclick="location.href='#'">Introduction to CSS</button>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+                <button onclick="location.href='#'">Introduction to JavaScript</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Section -->
+    <section id="resources">
+        <div class="banner resources-banner">
+        <h2>Resources</h2>
+        <ul class="resource-list">
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org" target="_blank">Mozilla Developer Network (MDN)</a></li>
+            <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a></li>
+            <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+            <li><a href="https://www.udemy.com" target="_blank">Udemy Courses</a></li>
+        </ul>
+        <button class="btn">Add Resource</button>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have questions or suggestions, feel free to reach out via email or your preferred platform.</p>
+        <p><strong>Email:</strong> mariyamnaeem2706@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Mariyamlikescola" target="_blank">Mariyamlikescola</a></p>
+    </section>
 </main>
-    
-        <section id="resources">
-            <h2>Resources</h2>
-            <ul>
-                <li>W3Schools</li>
-                <li>Mozilla Developer Network</li>
-                <li>Codecademy</li>
-                <li>FreeCodeCamp</li>
-                <li>Udemy Courses</li>
-            </ul>
-            <button class="btn">Add Resource</button>
-        </section>
-    </main>
-   <!-- Footer Section -->
-   <footer>
+
+<!-- Footer -->
+<footer class="footer">
     <p>&copy; 2025 Creative Computing Course. All rights reserved.</p>
 </footer>
 
