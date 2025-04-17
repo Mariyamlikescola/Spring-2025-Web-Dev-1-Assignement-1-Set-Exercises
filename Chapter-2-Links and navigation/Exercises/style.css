@@ -11,18 +11,17 @@ body {
 /* Navigation Bar */
 .navbar {
     background-color: #5a5757;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    padding: 10px ;
+    padding: 20px ;
+    text-align: center;
+    border-bottom: 2px solid #381414
 }
 
 .navbar a {
     color: white;
-    text-align: center;
-    padding: 14px 20px;
+    margin: 0 20px;
     text-decoration: none;
     font-size: 20px;
+    font-weight:bold;
 }
 
 .navbar a:hover {
@@ -30,23 +29,65 @@ body {
     color: #fff;
 }
 
+/* HERO SECTION */
+.hero {
+    background-color: #000000;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .hero h1 {
+    color: #641001;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    background: linear-gradient(to bottom, rgb(70, 14, 14), #383732);
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    border-radius: 40px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background: linear-gradient(to bottom, #070703, #351010);
+  }
 
 /* Sections Styling */
 .content-section {
-    padding: 20px;
+    padding: 40px 20px;
     background-color: #381414; /* Dark section background */
-    margin: 10px;
-    border-radius: 5px;
+text-align: center;
 }
+content-section h2 {
+    color: #345300;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .content-section p, .content-section ul {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    color: #3b3b00;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .content-section ul {
+    list-style: disc;
+    padding-left: 40px;
+  }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2980b9; /* Button color */
-    color: white; /* Button text color */
-    text-decoration: none;
-    border-radius: 5px;
-}
 /* Footer */
 footer {
     background-color: #5a5757;
