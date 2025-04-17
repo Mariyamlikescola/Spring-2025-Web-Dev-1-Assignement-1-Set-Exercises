@@ -116,97 +116,32 @@
     text-align: center;
     color: #3b3b00;
   }
-  /* About Section Styling */
-.about-block {
-  position: relative;
-  background-image: url("https://i.pinimg.com/736x/3e/50/8d/3e508d36cb514fe0697bde053e2a878d.jpg");
-  background-size: cover;
-  background-position: right;
-  border-radius: 8px;
-  overflow: hidden;
-  color: #fff;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-family: Georgia, serif;
-}
-/* Center the About Block specifically */
-.about-block {
-  width: 100%;
-  max-width: 800px;
-  margin: 40px auto; /* centers horizontally with space above/below */
-  position: relative;
-  background-image: url("https://i.pinimg.com/736x/3e/50/8d/3e508d36cb514fe0697bde053e2a878d.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  overflow: hidden;
-  color: #fff;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-family: Georgia, serif;
-}
-
-/* Maintain overlay and text as-is */
-.about-overlay {
-  height: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.066);
-}
-
-.about-title {
-  font-size: 4rem;
-  color: #fdf3cc;
-  font-weight: bold;
-  text-align: center;
-}
-
-.about-text {
-  background-color: #fdf3cc;
-  color: #2c1a00;
-  padding: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-family: Georgia, serif;
-}
-
-
-
-/* Semi-transparent overlay with "ABOUT" text */
-.about-overlay {
-  position: center;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.066);
-}
-
-.about-title {
-  font-size: 4rem;
-  color: #fdf3cc;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Descriptive text box */
-.about-text {
-  background-color: #fdf3cc;
-  color: #2c1a00;
-  padding: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-family: Georgia, serif;
-}
-
+  .about-section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    background-color: #e6ebbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 42px;
+    color: #345300;
+    margin-bottom: 30px;
+  }
+  
+  .about-section iframe {
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
   /* STEPS SECTION */
   .steps-section {
     background-color: #f4f4d7;
