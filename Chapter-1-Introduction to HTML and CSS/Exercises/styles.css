@@ -1,37 +1,37 @@
-
+/* Resetting margins, paddings, and setting box-sizing for a consistent layout across all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /* Setting body and html styles for fonts and background */
   body, html {
     font-family: Georgia, serif;
     height: 100%;
     background-color: #f4f4d7;
   }
-  
+  /* Header styles, including background, padding, and border */
   header {
     background-color: #e6ebbb;
     padding: 20px 0;
     text-align: center;
     border-bottom: 2px solid #bbaaff;
   }
-  
+  /* Creating navigation styling with a cute layout */
   nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 40px;
   }
-  
+  /* Navigation link styles: text decoration, color, size, and weight */
   nav ul li a {
     text-decoration: none;
     color: #3b3b00;
     font-size: 20px;
     font-weight: bold;
   }
-  
+  /* Hero section styles */
   .hero {
     background-image: url('https://cdn.pixabay.com/photo/2021/03/24/08/49/durum-6119590_1280.jpg');
     background-size: cover;
@@ -44,14 +44,14 @@
     text-align: center;
     padding: 20px;
   }
-  
+  /* Hero heading styles */
   .hero h1 {
     color: #e6ebbb;
     font-size: 60px;
     line-height: 1.2;
     margin-bottom: 30px;
   }
-  
+  /* Button styles within the hero section */
   .hero button {
     background: linear-gradient(to bottom, gold, #ccaa00);
     border: none;
@@ -62,7 +62,7 @@
     box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
     cursor: pointer;
   }
-  
+  /* adding button hover effect */
   .hero button:hover {
     background: linear-gradient(to bottom, #ffdb4d, #b38f00);
   }
@@ -73,21 +73,21 @@
     background-color: #e6ebbb;
     text-align: center;
   }
-  
+  /* Ingredients section heading styles */
   .ingredients-section h2 {
     color: #4b5d00;
     font-size: 36px;
     margin-bottom: 30px;
     font-weight: bold;
   }
-  
+  /* Grid layout for ingredient items */
   .ingredients-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
     justify-items: center;
   }
-  
+  /* Individual ingredient block styles */
   .ingredient-block {
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@
     padding: 10px;
     border-radius: 10px;
   }
-  
+  /* Image styles within ingredient blocks */
   .ingredient-block img {
     width: 100%;
     max-width: 300px;
@@ -116,6 +116,7 @@
     text-align: center;
     color: #3b3b00;
   }
+  /* adding ABOUT SECTION styles*/
   .about-section {
     min-height: 100vh;
     padding: 60px 20px;
@@ -162,7 +163,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  
+  /* Paragraph styles within steps section */
   .steps-section p {
     font-size: 18px;
     color: #3b3b00;

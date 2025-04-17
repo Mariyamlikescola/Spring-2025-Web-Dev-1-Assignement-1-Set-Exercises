@@ -1,3 +1,4 @@
+/* adding basic styles for the body to set font, line height, margins, padding, background, and text color */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +14,7 @@ header {
     padding: 20px;
     text-align: center;
 }
-
+/* adding section styles to create distinct content blocks */
 section {
     margin: 20px auto;
     padding: 20px;
@@ -31,14 +32,14 @@ h3 {
     font-size: 1.5em;
     margin-top: 1.5em;
 }
-
+/* Preformatted text styles for code or special content */
 pre {
     background: #eee;
     padding: 10px;
     border-radius: 5px;
     overflow: auto;
 }
-
+/* addding footer styles, aligning text to the center */
 footer {
     text-align: center;
     padding: 20px;
