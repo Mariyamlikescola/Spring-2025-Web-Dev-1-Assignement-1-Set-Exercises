@@ -6,9 +6,9 @@
 body {
   margin: 0;
   padding: 0; 
-  background: #fceaff;
+  background: #e6ebbb;
   font-family: 'Comic Neue', cursive; 
-  color: #5b2c6f;
+  color: #98583d;
   display: flex; 
   justify-content: center;
   align-items: center; 
@@ -18,10 +18,10 @@ body {
 /* Styling for the main container holding content */
 .container {
   text-align: center; 
-  background-color: #fff0f6; 
+  background-color: #dc8c4b; 
   padding: 40px; 
   border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(255, 153, 204, 0.2); 
+  box-shadow: 0 10px 30px rgba(45, 113, 76, 0.2); 
   max-width: 700px; 
   width: 90%; 
 }
@@ -29,7 +29,7 @@ body {
 /* styling the heading */
 h1 {
   font-size: 2.5rem; 
-  color: #c0398f;
+  color: #4fb977;
   margin-bottom: 10px; 
 }
 
@@ -48,26 +48,26 @@ p {
 
 /* styling the button for audio controls */
 button.Audios {
-  background-color: #ffccf9; 
+  background-color: #4fb977; 
   border: none; 
   border-radius: 20px; 
   padding: 15px 10px; 
   font-size: 1rem; 
   color: #6c3483;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(255, 153, 204, 0.3);
+  box-shadow: 0 4px 10px rgb(62, 52, 26);
   transition: all 0.2s ease-in-out; 
 }
 
 /* adding hover effect for buttons */
 button.Audios:hover {
-  background-color: #ffc8dd; 
+  background-color: #4ccabf; 
   transform: translateY(-3px); 
-  box-shadow: 0 6px 12px rgba(255, 153, 204, 0.4);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* adding effects for button */
 button.Audios:active {
   transform: scale(0.95); 
-  background-color: #ffb3c1;
+  background-color: #4ccabf;
 }
