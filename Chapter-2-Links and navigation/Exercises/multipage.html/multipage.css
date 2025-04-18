@@ -1,0 +1,140 @@
+/* Stlying base for the body, setting font and background */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #1c1c1c; 
+    color: #f5f5f5; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #5a5757; 
+    padding: 20px; 
+    text-align: center; 
+    border-bottom: 2px solid #381414; 
+  }
+  
+  /* Navigation link styles */
+  .navbar a {
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold; 
+  }
+  
+  /* Link hover effect */
+  .navbar a:hover {
+    color: #f0c000; 
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: black; 
+    text-align: center; 
+    padding: 40px 20px; 
+  }
+  
+  /* Hero image styles */
+  .hero-img {
+    max-height: 200px; 
+    border-radius: 12px; 
+    margin-bottom: 20px; 
+  }
+  
+  /* Hero heading styles */
+  .hero h1 {
+    font-size: 48px; 
+    color: #b30000; 
+  }
+  
+  /* Styling the hero button */
+  .hero button {
+    padding: 10px 25px; 
+    font-size: 20px; 
+    background-color: #b30000; 
+    color: white; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer; 
+  }
+  
+  /* Button hover effect */
+  .hero button:hover {
+    background-color: #8b0000; 
+  }
+  
+  /* Content section styles */
+  .content-section {
+    padding: 40px 20px;
+    text-align: center; 
+  }
+  
+  /* Content section heading styles */
+  .content-section h2 {
+    font-size: 32px; 
+    color: #ffcc00; 
+    margin-bottom: 20px; 
+  }
+  
+  /* Paragraph styles in content sections */
+  .content-section p {
+    max-width: 900px; 
+    margin: auto; 
+    font-size: 18px;
+    line-height: 1.6; 
+  }
+  
+  /* addingg grid layout for cast and character sections */
+  .cast-grid,
+  .character-grid {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  /* adding grid item styles for cast and character sections */
+  .cast-grid div,
+  .character-grid div {
+    text-align: center; 
+    width: 200px; 
+  }
+  
+  /* Image styles in grids */
+  .cast-grid img,
+  .character-grid img {
+    width: 100%; 
+    border-radius: 10px; 
+  }
+  
+  /* Reviews background styles */
+  .reviews-bg {
+    background: url('https://i.pinimg.com/736x/23/67/a6/2367a616f21f4a088db600e1af13a5f8.jpg') no-repeat center center/cover; 
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  /* Overlay for reviews section */
+  .reviews-overlay {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px; 
+    border-radius: 12px; 
+    max-width: 800px; 
+    margin: auto; 
+  }
+  
+  /* adding generic button styles */
+  .button {
+    background-color: #8b0000; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    text-decoration: none; 
+  }
+  
+  /* Button hover effect */
+  .button:hover {
+    background-color: #a30000; 
+  }
