@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alan Partridge Soundboard</title>
+  <link rel="stylesheet" href="style1.css">
+  <script defer src="script1.js"></script>
+</head>
+<body>
+  <div class="main-container">
+    <!-- Making a speech box for text -->
+    <section class="text-to-speech">
+      <h2>PSYCHEDELIC FISH</h2>
+      <textarea id="ttsInput" placeholder="Type something daft..."></textarea>
+      <button id="speakBtn">Say it</button>
+    </section>
+
+    <!-- Soundboard Section -->
+    <section class="soundboard">
+      <h1>Sample Bank <span id="pageNumber">1</span></h1>
+      <div id="sampleGrid" class="grid"></div>
+      <div class="navigation">
+        <button id="prevBtn" class="nav-btn hidden">⬅️</button>
+        <button id="nextBtn" class="nav-btn">➡️</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
