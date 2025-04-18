@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f6f6f6;
+    background-color: #e6ebbb;
   }
   
   .main-container {
@@ -16,7 +16,7 @@ body {
   .text-to-speech {
     flex: 1;
     min-width: 300px;
-    background: white;
+    background: #dc8c4b;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
@@ -88,7 +88,7 @@ body {
   }
   
   .nav-btn {
-    background: white;
+    background: #4fb977;
     border: 2px solid black;
     font-size: 1.5rem;
     padding: 6px 16px;
