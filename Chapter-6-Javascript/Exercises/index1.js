@@ -1,3 +1,4 @@
+// Reference to display the RGB value to guess
 const rgbValue = document.getElementById('rgbValue');
 const optionsContainer = document.getElementById('options');
 const feedback = document.getElementById('feedback');
@@ -7,14 +8,14 @@ const restartBtn = document.getElementById('restartBtn');
 
 let score = 0;
 let lives = 3;
-
+// Function to generate a random RGB color
 function randomRGB() {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
   return `rgb(${r}, ${g}, ${b})`;
 }
-
+// Function to start a new round of the game
 function newRound() {
   feedback.textContent = '';
   optionsContainer.innerHTML = '';
@@ -30,7 +31,8 @@ function newRound() {
     }
   }
   colors.sort(() => Math.random() - 0.5);
-
+// Create divs for each color option and add event listeners for guessing
+colors.
   colors.forEach(color => {
     const div = document.createElement('div');
     div.classList.add('color-option');
@@ -39,6 +41,7 @@ function newRound() {
     optionsContainer.appendChild(div);
   });
 }
+// Function to handle user's guess
 function handleGuess(selected, correct) {
     if (selected === correct) {
       feedback.textContent = '✅ Correct!';
@@ -60,7 +63,7 @@ function handleGuess(selected, correct) {
       }
     }, 1000);
   }
-  
+  // Function to handle the end of the game
   function endGame() {
     feedback.textContent = `🎮 Game Over! Final Score: ${score}`;
     feedback.style.color = '#e74c3c';

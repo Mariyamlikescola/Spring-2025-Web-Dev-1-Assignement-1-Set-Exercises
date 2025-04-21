@@ -1,4 +1,4 @@
-
+/*styling the basic parts of body*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
     color: #f5f5f5;
 }
 
-/* Navigation Bar */
+/* Styling the navigation Bar */
 .navbar {
     background-color: #5a5757;
     padding: 20px ;
@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 
-/* HERO SECTION */
+/* styling herO SECTION */
 .hero {
     background-color: #000000;
     height: 300px;
@@ -88,7 +88,7 @@ content-section h2 {
     padding-left: 40px;
   }
 
-/* Footer */
+/* Styling the footer */
 footer {
     background-color: #5a5757;
     text-align: center;
